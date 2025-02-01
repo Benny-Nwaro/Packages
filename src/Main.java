@@ -27,9 +27,7 @@ public class Main {
         bmw106.turnRight(5);
         bmw106.decelerate(20);
         bmw106.parkVehicle(true);
-        AutomobileDetails details = new AutomobileDetails();
-        details.printCarDetails(bmw106);
 
-
+        AutomobileDetails.printCarDetails(bmw106);
     }
 }
